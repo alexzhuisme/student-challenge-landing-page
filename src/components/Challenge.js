@@ -15,7 +15,7 @@ export default function Challenge() {
         </a>
       </div>
       <div className="row-span-3 col-span-1 w-60">
-        <img src="/illustration.png" alt="" className=""/>
+        <img src="/illustration.svg" alt=""/>
       </div>
     </div>
   )

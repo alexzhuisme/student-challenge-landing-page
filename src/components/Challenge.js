@@ -1,8 +1,8 @@
 export default function Challenge() {
   return (
     <div className="grid grid-rows-3 grid-cols-3 grid-flow-col items-center justify-around font-open-sans h-80 w-1/2 mx-auto">
-      <div className="row-span-1 col-span-2 text-4xl font-extrabold text-gray-700">Foxit Student Challenge Program</div>
-      <div className="row-span-1 col-span-2 text-lg flex flex-col justify-between">
+      <div className="row-span-1 col-span-2 md:text-2xl sm:text-xl lg:text-4xl font-extrabold text-gray-700">Foxit Student Challenge Program</div>
+      <div className="row-span-1 col-span-2 md:text-lg sm:text-base flex flex-col justify-between">
         <div className="font-medium">Complete a simple Foxit <span className="text-blue-300">plugin</span> Project and win a $1000 gift card</div>
         <div className="font-light">Feel free to join our discord community and view our projects on github</div>
       </div>

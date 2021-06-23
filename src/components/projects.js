@@ -1,6 +1,6 @@
 export default function Projects() {
   return (
-    <div className="h-32 bg-gray-200">
+    <div className="h-32 bg-gray-100">
       <div className="flex justify-between items-center h-full w-1/2 mx-auto">
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" viewBox="0 0 20 20" fill="currentColor">

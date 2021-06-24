@@ -4,15 +4,22 @@ import Banner from "./components/Banner";
 import Challenge from "./components/Challenge";
 import Projects from "./components/projects";
 import Reasons from "./components/Reasons";
+import Benefits from "./components/Benefits";
+import Divider from "./components/Divider";
 
 function App() {
   return (
     <>
       <Navbar/>
-      <Banner/>
-      <Challenge/>
-      <Reasons/>
-      <Projects/>
+      <div className="bg-gray-100">
+        <Banner/>
+        <Challenge/>
+        <Divider/>
+        {/*<Reasons/>*/}
+        <Benefits/>
+        <Projects/>
+      </div>
+
     </>
   );
 }

@@ -2,9 +2,12 @@
 
 export default function Challenge() {
   return (
-    <div className="grid grid-rows-3 grid-cols-3 grid-flow-col items-center justify-around font-open-sans h-80 w-2/3 max-w-5xl mx-auto">
+    <div className="grid grid-rows-3  grid-flow-col items-center justify-around font-open-sans h-auto w-2/3 max-w-5xl mx-auto">
       <div className="row-span-1 col-span-2 md:text-2xl sm:text-xl lg:text-4xl font-extrabold text-gray-700">Foxit Student Challenge Program</div>
-      <div className="row-span-1 col-span-2 md:text-lg sm:text-base flex flex-col justify-between self-center">
+      <div className="row-span-1 col-span-2 md:text-lg sm:text-base flex flex-col justify-around items-start">
+        <div className="font-light text-base pb-4">
+          Foxit Software is looking for talented student coders to complete challenge projects to help sharpen their skills and gain experience working with a major technology company. Work with our Education team to design and develop plug-in programs for Foxit Editor 11. Completed projects will be released as an optional plug-in to millions of Foxit users worldwide.
+        </div>
         <a href="https://forms.office.com/r/5ZubiwG0TK" target="_blank" rel="noreferrer"
            className="bg-gradient-to-r from-orange-dark to-orange-light w-40 flex justify-center items-center h-10 rounded-md  text-white font-bold shadow-md"
         >
@@ -20,7 +23,7 @@ export default function Challenge() {
           </svg>
           <div className="flex-auto">
             <h3 className="font-bold text-gray-900">Discord</h3>
-            <p>Join our Discord community to get better support</p>
+            <p>Join our Discord community to get realtime support</p>
           </div>
         </a>
         <a href="https://github.com/DanGodfreyjr/FoxitStudentChallenges" target="_blank" rel="noreferrer" className="flex items-start space-x-4">

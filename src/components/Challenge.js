@@ -9,7 +9,7 @@ export default function Challenge() {
           Foxit Software is looking for talented student coders to complete challenge projects to help sharpen their skills and gain experience working with a major technology company. Work with our Education team to design and develop plug-in programs for Foxit Editor 11. Completed projects will be released as an optional plug-in to millions of Foxit users worldwide.
         </div>
         <a href="https://forms.office.com/r/5ZubiwG0TK" target="_blank" rel="noreferrer"
-           className="bg-gradient-to-r from-orange-dark to-orange-light w-40 flex justify-center items-center h-10 rounded-md  text-white font-bold shadow-md"
+           className="bg-gradient-to-r from-orange-dark to-orange-light w-40 flex justify-center items-center h-10 rounded-md  text-white font-bold shadow-md border-2 border-white"
         >
           Sign Up Here
         </a>

@@ -1,28 +1,45 @@
+import Card from "./Card";
+
+const project = [
+  {
+    'title':"PDF Translator",
+    'description': 'Create a tool that translates text in a PDF document. Gain experience with text analysis and working with APIs to quickly deliver translations for a seamless user experience.',
+    'link': "https://github.com/huytran888/PDFTranslator"
+  },
+  {
+    'title':"PDF Scheduler",
+    'description': 'Create a tool that translates text in a PDF document. Gain experience with text analysis and working with APIs to quickly deliver translations for a seamless user experience.',
+    'link': "https://github.com/huytran888/PDFScheduler"
+  },
+  {
+    'title':"PDF QR Code Reader",
+    'description': 'Create a tool that translates text in a PDF document. Gain experience with text analysis and working with APIs to quickly deliver translations for a seamless user experience.',
+    'link': "https://github.com/huytran888/PDFQRCodeReader"
+  },
+  {
+    'title':"PDF Map Image Insert",
+    'description': 'Create a tool that translates text in a PDF document. Gain experience with text analysis and working with APIs to quickly deliver translations for a seamless user experience.',
+    'link': "https://github.com/DanGodfreyjr/PDFInsertMapImage"
+  }
+]
+
+//Come up with your own PDF plug in idea and submit it as a Challenge. Get creative and create a feature inspired by your own document needs.
+
+
 export default function Projects() {
   return (
-    <div className="h-32">
-      <div className="flex justify-between items-center h-full w-1/2 mx-auto">
+    <div className="mx-auto max-w-5xl p-10 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5">
+      {/*<div className="flex justify-between items-center h-full w-1/2 mx-auto">*/}
+        <Card title={project[0].title} description={project[0].description} link={project[0].link}/>
         <div>
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" viewBox="0 0 20 20" fill="currentColor">
-            <path d="M11 17a1 1 0 001.447.894l4-2A1 1 0 0017 15V9.236a1 1 0 00-1.447-.894l-4 2a1 1 0 00-.553.894V17zM15.211 6.276a1 1 0 000-1.788l-4.764-2.382a1 1 0 00-.894 0L4.789 4.488a1 1 0 000 1.788l4.764 2.382a1 1 0 00.894 0l4.764-2.382zM4.447 8.342A1 1 0 003 9.236V15a1 1 0 00.553.894l4 2A1 1 0 009 17v-5.764a1 1 0 00-.553-.894l-4-2z" />
-          </svg>
+          <Card title={project[1].title} description={project[1].description} link={project[1].link}/>
         </div>
         <div>
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" viewBox="0 0 20 20" fill="currentColor">
-            <path d="M11 17a1 1 0 001.447.894l4-2A1 1 0 0017 15V9.236a1 1 0 00-1.447-.894l-4 2a1 1 0 00-.553.894V17zM15.211 6.276a1 1 0 000-1.788l-4.764-2.382a1 1 0 00-.894 0L4.789 4.488a1 1 0 000 1.788l4.764 2.382a1 1 0 00.894 0l4.764-2.382zM4.447 8.342A1 1 0 003 9.236V15a1 1 0 00.553.894l4 2A1 1 0 009 17v-5.764a1 1 0 00-.553-.894l-4-2z" />
-          </svg>
+          <Card title={project[2].title} description={project[2].description} link={project[2].link}/>
         </div>
         <div>
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" viewBox="0 0 20 20" fill="currentColor">
-            <path d="M11 17a1 1 0 001.447.894l4-2A1 1 0 0017 15V9.236a1 1 0 00-1.447-.894l-4 2a1 1 0 00-.553.894V17zM15.211 6.276a1 1 0 000-1.788l-4.764-2.382a1 1 0 00-.894 0L4.789 4.488a1 1 0 000 1.788l4.764 2.382a1 1 0 00.894 0l4.764-2.382zM4.447 8.342A1 1 0 003 9.236V15a1 1 0 00.553.894l4 2A1 1 0 009 17v-5.764a1 1 0 00-.553-.894l-4-2z" />
-          </svg>
+          <Card title={project[3].title} description={project[3].description} link={project[3].link}/>
         </div>
-        <div>
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" viewBox="0 0 20 20" fill="currentColor">
-            <path d="M11 17a1 1 0 001.447.894l4-2A1 1 0 0017 15V9.236a1 1 0 00-1.447-.894l-4 2a1 1 0 00-.553.894V17zM15.211 6.276a1 1 0 000-1.788l-4.764-2.382a1 1 0 00-.894 0L4.789 4.488a1 1 0 000 1.788l4.764 2.382a1 1 0 00.894 0l4.764-2.382zM4.447 8.342A1 1 0 003 9.236V15a1 1 0 00.553.894l4 2A1 1 0 009 17v-5.764a1 1 0 00-.553-.894l-4-2z" />
-          </svg>
-        </div>
-      </div>
     </div>
 
   )

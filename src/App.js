@@ -6,6 +6,7 @@ import Projects from "./components/projects";
 // import Reasons from "./components/Reasons";
 import Benefits from "./components/Benefits";
 import Divider from "./components/Divider";
+import Create from "./components/Create";
 
 function App() {
   return (
@@ -17,7 +18,10 @@ function App() {
         <Divider/>
         {/*<Reasons/>*/}
         <Benefits/>
+        <Divider/>
         <Projects/>
+        <Divider/>
+        <Create/>
       </div>
 
     </>

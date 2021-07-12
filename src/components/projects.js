@@ -23,9 +23,6 @@ const project = [
   }
 ]
 
-//Come up with your own PDF plug in idea and submit it as a Challenge. Get creative and create a feature inspired by your own document needs.
-
-
 export default function Projects() {
   return (
     <div className="mx-auto max-w-5xl p-10 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5">

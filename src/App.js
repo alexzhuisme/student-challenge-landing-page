@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Challenge from "./components/Challenge";
 import Projects from "./components/projects";
-// import Reasons from "./components/Reasons";
 import Benefits from "./components/Benefits";
 import Divider from "./components/Divider";
 import Create from "./components/Create";
@@ -16,7 +15,6 @@ function App() {
         <Banner/>
         <Challenge/>
         <Divider/>
-        {/*<Reasons/>*/}
         <Benefits/>
         <Divider/>
         <Projects/>

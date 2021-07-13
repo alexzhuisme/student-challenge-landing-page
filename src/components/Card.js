@@ -1,7 +1,7 @@
 export default function Card(props){
   return (
     <div className="rounded overflow-hidden shadow-sm border-4 border-white w-96 mx-4">
-      <div className="px-6 py-4 h-64 md:h-56">
+      <div className="px-6 py-4">
         <div className="font-bold text-lg mb-2 ">{props.title}</div>
         <p className=" text-base font-light">
           {props.description}

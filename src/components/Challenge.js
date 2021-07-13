@@ -2,13 +2,13 @@
 
 export default function Challenge() {
   return (
-    <div className="flex flex-wrap overflow-hidden font-open-sans">
+    <div className="flex flex-wrap overflow-hidden ">
 
       <div className="my-1 px-1 w-full overflow-hidden sm:my-3 sm:px-3  md:my-4 md:px-4  lg:my-4 lg:px-4 flex justify-center items-center">
-        <div className="font-bold text-lg md:text-xl lg:text-3xl">Foxit Student Challenge Program</div>
+        <div className="font-bold text-2xl md:text-2xl lg:text-3xl font-open-sans">Student Challenge Program</div>
       </div>
       <div className="w-full flex justify-center flex-wrap">
-        <div className="my-1 px-1 w-full overflow-hidden md:px-4 md:w-1/4 flex justify-center items-center">
+        <div className="w-full overflow-hidden md:px-4 md:w-128 flex justify-center items-center">
           <div className="w-full">
             <div className="font-extralight pb-4 px-4">
               Foxit Software is looking for talented student coders to complete challenge projects to help sharpen their skills and gain experience working with a major technology company.
@@ -24,9 +24,9 @@ export default function Challenge() {
           </div>
         </div>
 
-        <div className="my-1 px-1 w-full overflow-hidden sm:my-3 sm:px-3 sm:w-1/2 md:my-4 md:px-4 md:w-1/3 lg:my-4 lg:px-4 lg:w-1/3 flex justify-center items-center">
+        <div className="my-1 px-1 w-full overflow-hidden sm:my-3 sm:px-3 sm:w-1/2 md:my-4 md:px-4 md:w-96 flex justify-center items-center">
           <div className="w-4/5">
-            <img src="/SVG/pair_programming.svg" alt="" className="w-96 "/>
+            <img src="/SVG/pair_programming.svg" alt="" className="w-96"/>
           </div>
         </div>
       </div>
@@ -42,7 +42,7 @@ export default function Challenge() {
             </svg>
             <div className="flex-auto">
               <h3 className="font-bold text-gray-900">Discord</h3>
-              <p>Join our Discord community to get realtime support</p>
+              <p className="font-extralight">Join our Discord community to get realtime support</p>
             </div>
           </a>
         </div>
@@ -54,7 +54,7 @@ export default function Challenge() {
             <rect width="48" height="48" rx="12"/>
             <path d="M23.997 12a12 12 0 00-3.792 23.388c.6.12.816-.264.816-.576l-.012-2.04c-3.336.72-4.044-1.608-4.044-1.608-.552-1.392-1.332-1.764-1.332-1.764-1.08-.744.084-.72.084-.72 1.2.084 1.836 1.236 1.836 1.236 1.08 1.824 2.808 1.296 3.492.996.12-.78.42-1.308.756-1.608-2.664-.3-5.46-1.332-5.46-5.928 0-1.32.468-2.388 1.236-3.228a4.32 4.32 0 01.12-3.168s1.008-.324 3.3 1.224a11.496 11.496 0 016 0c2.292-1.56 3.3-1.224 3.3-1.224.66 1.644.24 2.88.12 3.168.768.84 1.236 1.92 1.236 3.228 0 4.608-2.808 5.616-5.484 5.916.432.372.816 1.104.816 2.22l-.012 3.3c0 .312.216.696.828.576A12 12 0 0023.997 12z" fill="currentColor" className="text-gray-50"/>
           </svg>
-          <div className="flex-auto"><h3 className="font-bold text-gray-900">GitHub</h3><p>Check our available challenges on GitHub</p></div>
+          <div className="flex-auto"><h3 className="font-bold text-gray-900">GitHub</h3><p className="font-extralight">Check our available challenges on GitHub</p></div>
         </a>
       </div>
 

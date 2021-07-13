@@ -14,6 +14,9 @@ module.exports = {
       },
       fontFamily: {
         'open-sans': ['Open Sans', 'Arial', 'sans-serif']
+      },
+      spacing: {
+        '128':'34rem'
       }
     }
   },

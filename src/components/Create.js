@@ -5,7 +5,7 @@ export default function Create(){
         <h2 className="text-xl md:text-4xl font-bold">Want to create your own <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-dark to-orange-light">Challenge</span>?</h2>
         <p className="w-10/12 flex justify-center items-center">Come up with your own PDF plug in idea and submit it as a Challenge. Get creative and create a feature inspired by your own document needs.</p>
       </div>
-      <div className="h-16 w-full md:w-1/2 flex justify-around items-center">
+      <div className="h-16 w-full md:w-1/2 flex justify-around items-center mb-20">
         <a href="https://github.com/DanGodfreyjr/MakeYourOwnFoxitStudentChallenge" target="_blank" rel="noreferrer"
            className="bg-gradient-to-r from-orange-dark to-orange-light w-40 flex justify-center items-center h-10 rounded-md  text-white font-bold shadow-md border-2 border-white"
         >

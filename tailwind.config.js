@@ -6,17 +6,36 @@ module.exports = {
       colors: {
         orange: {
           light: '#ffa400',
-          dark: '#ff6f00'
+          dark: '#ff6f00',
+          base: '#FF6F00'
         },
         blue: {
-          discord: '#5865F2'
+          discord: '#5865F2',
+          background: '#D4EDF2',
+          title: '#25383F'
         }
+
       },
       fontFamily: {
         'open-sans': ['Open Sans', 'Arial', 'sans-serif']
       },
       spacing: {
-        '128':'34rem'
+        '18': '4.5rem',
+        '50': '12.5rem',
+        '70': '17.5rem',
+        '108': '30rem',
+        '120': '33rem',
+        '128':'34rem',
+        '132': '36rem',
+        '560px': '35rem',
+        '1040px': '65rem',
+        '1440px': '90rem'
+      },
+      backgroundImage: theme => ({
+        'right-arrow': "url('./img/arrow-right.svg')"
+      }),
+      backgroundPosition: {
+        'right-4': 'right 1.5rem center',
       }
     }
   },

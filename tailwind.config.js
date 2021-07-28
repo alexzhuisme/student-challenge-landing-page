@@ -7,12 +7,14 @@ module.exports = {
         orange: {
           light: '#ffa400',
           dark: '#ff6f00',
-          base: '#FF6F00'
+          base: '#FF6F00',
+          card: '#F98410'
         },
         blue: {
           discord: '#5865F2',
           background: '#D4EDF2',
-          title: '#25383F'
+          title: '#25383F',
+          card: '#7C9498'
         }
 
       },
@@ -32,11 +34,18 @@ module.exports = {
         '1440px': '90rem'
       },
       backgroundImage: theme => ({
-        'right-arrow': "url('./img/arrow-right.svg')"
+        'right-arrow': "url('./img/arrow-right.svg')",
+        'right-arrow-black': "url('./img/arrow-right-black.svg')"
       }),
       backgroundPosition: {
         'right-4': 'right 1.5rem center',
-      }
+      },
+      fill: theme => ({
+        'red': theme('colors.red.500'),
+        'green': theme('colors.green.500'),
+        'blue': theme('colors.blue.500'),
+        'black': theme('colors.black')
+      })
     }
   },
   variants: {

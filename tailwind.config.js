@@ -39,6 +39,7 @@ module.exports = {
       }),
       backgroundPosition: {
         'right-4': 'right 1.5rem center',
+        'right-2': 'right 1rem center',
       },
       fill: theme => ({
         'red': theme('colors.red.500'),

@@ -9,18 +9,15 @@ import Banner from "./components/Banner";
 
 function App() {
   return (
-    <>
-      <div className="bg-blue-background">
-        <Navbar/>
-        <Challenge/>
-        <Reasons/>
-        <Banner/>
-        <Benefits/>
-        <Projects/>
-        <Create/>
-      </div>
-
-    </>
+    <div className="bg-blue-background w-full">
+      <Navbar/>
+      <Challenge/>
+      <Reasons/>
+      <Banner/>
+      <Benefits/>
+      <Projects/>
+      <Create/>
+    </div>
   );
 }
 

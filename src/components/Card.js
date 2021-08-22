@@ -1,6 +1,6 @@
 export default function Card(props){
   return (
-    <div className="group border border-gray-500 hover:border-orange-card w-96 h-80 rounded-xl hover:bg-white transition-all">
+    <div className="group border border-gray-500 hover:border-orange-card w-80 xl:w-96 xl:h-80 rounded-xl hover:bg-white transition-all">
       <div className="px-6 py-4 h-full">
         <div className="flex flex-col justify-between items-start h-full">
           <img src={props.logo} alt="" className='bg-blue-card group-hover:bg-orange-card p-4 rounded-xl'/>

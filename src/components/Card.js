@@ -13,7 +13,6 @@ export default function Card(props){
             Learn More
           </a>
         </div>
-
       </div>
     </div>
   )

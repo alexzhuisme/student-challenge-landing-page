@@ -1,7 +1,7 @@
 export default function Banner() {
   return (
     <div className="h-auto w-full flex justify-center my-10 xl:my-32 px-4 sm:px-20">
-      <div className="w-full xl:w-1040px text-base text-gray-500 bg-white rounded-3xl flex flex-wrap sm:grid sm:grid-cols-2 justify-center xl:justify-around items-center py-4 lg:py-10 gap-y-4">
+      <div className="w-full xl:w-1040px text-base text-gray-500 bg-white rounded-3xl flex flex-wrap sm:grid sm:grid-cols-2 justify-center md:justify-around items-center py-4 lg:py-10 gap-y-4">
         <div>
           <a href="https://discord.gg/5qkT3qxmV3" target="_blank" rel="noreferrer" className="flex justify-center space-x-4 px-4">
             <svg fill="#5865f2" className="flex-none text-indigo-400 w-12 h-12">

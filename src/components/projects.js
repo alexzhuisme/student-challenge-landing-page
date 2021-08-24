@@ -49,7 +49,7 @@ export default function Projects() {
           <Card logo={project[3].logo} title={project[3].title} description={project[3].description} link={project[3].link}/>
         </div>
       </div>
-      <div className="pt-6 text-xl font-bold"><a href="/" className="hover:underline">You can check past project here</a></div>
+      <div className="pt-6 text-xl font-bold"><a href="/" className="hover:underline">You can check sample projects here</a></div>
     </div>
   )
 }

@@ -34,7 +34,7 @@ const project = [
 export default function Projects() {
   return (
     <div className="w-full flex flex-col justify-center items-center">
-      <div className="text-3xl font-bold pb-6">Available Projects</div>
+      <div className="text-2xl font-bold pb-6 flex justify-center items-center text-center">Pick Your Challenge From These Available Projects</div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
           <Card logo={project[0].logo} title={project[0].title} description={project[0].description} link={project[0].link}/>
@@ -49,7 +49,7 @@ export default function Projects() {
           <Card logo={project[3].logo} title={project[3].title} description={project[3].description} link={project[3].link}/>
         </div>
       </div>
-      <div className="pt-6 text-xl font-bold"><a href="https://github.com/DanGodfreyjr/FoxitStudentChallenges/blob/main/CompletedChallenges.MD" target="_blank" rel="noreferrer" className="hover:underline">You can check sample projects here</a></div>
+      <div className="pt-6 text-xl font-bold"><a href="https://github.com/DanGodfreyjr/FoxitStudentChallenges/blob/main/CompletedChallenges.MD" target="_blank" rel="noreferrer" className="hover:underline">Check sample projects here</a></div>
     </div>
   )
 }

@@ -8,7 +8,7 @@ export default function Benefits() {
 
         <div className="order-2">
           <div className="flex flex-col text-center">
-            <span className="font-bold text-3xl">Real Industry Experience</span>
+            <span className="font-bold text-3xl">Get Real Industry Experience</span>
             <span className="font-semibold">in developing creative and robust software</span>
           </div>
           <div className="text-base text-gray-500 pt-6 font-semibold leading-relaxed">
